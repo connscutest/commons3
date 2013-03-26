@@ -1,0 +1,10 @@
+name = Migrator
+core = 7.x
+package = Training
+
+dependencies[] = migrate
+
+files[] = migrate_training.migrate.inc
+files[] = message.inc
+files[] = user.inc
+

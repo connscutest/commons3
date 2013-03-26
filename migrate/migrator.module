@@ -1,0 +1,13 @@
+<?php
+
+function migrator_migrate_api() {
+  $api = array(
+    'api' => 2,
+	'migrations' => array(
+	  'AcmeUser' => array('class_name' => 'AcmeUserMigration'),
+	  'AcmeMessage' => array('class_name' => 'AcmeMessageMigration'),
+	),
+  );
+  return $api;
+}
+
