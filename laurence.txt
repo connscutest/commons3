@@ -5,3 +5,5 @@ Learning Git is fun!
 I hope. I really hope! Hooray
 
 SSH makes life easier.
+
+This is part of a new feature
